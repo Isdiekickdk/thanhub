@@ -18,12 +18,12 @@ if Fisch then
         MegalodonMessage = '```Megalodon is spawning : 🟢 ```'
 
         -- URL untuk webhook Megalodon (ganti dengan URL webhook Anda)
-        local urlMegalodon = "https://discord.com/api/webhooks/1342845396464046080/XWm2_-XguCRuLGqVPJumRqPRYlelFgGvgjuUrzkrDoDYzFg4H7o2ADHCrVYURz8Uyp5b"
+        local urlMegalodon = "https://discord.com/api/webhooks/1346796601242554430/CmBv1mrCMfVeemflsXoEyaYmQku0gMqx7j6yfgGTotI80jlPk0BhMHxcHdRV3iCTkP5u"
 
         local JoinServer = 'game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,' .. '\'' .. tostring(game.JobId) .. '\'' .. ')'
 
         local dataMegalodon = {
-            ["username"] = 'Megalodon Finder Thanhub',
+            ["username"] = 'Fisch Finder || Thanhub',
             ['content'] = '',  -- Isi jika perlu, misalnya untuk tagging
             ["avatar_url"] = "https://media.discordapp.net/attachments/1342846567094161488/1346724283753304084/Gambar_WhatsApp_2025-02-18_pukul_06.35.37_182c3226.jpg?ex=67c93a3a&is=67c7e8ba&hm=a345e419c89c574e0f32f5ec36919cb1800eae29aa213afa5d64524a1a37287f&=&format=webp",  -- Ganti dengan avatar yang sesuai
             ["embeds"] = {
@@ -72,12 +72,12 @@ if Fisch then
         IsonadeMessage = '```Strange Pool is spawning : 🟢 ```'
 
         -- URL untuk webhook Isonade (ganti dengan URL webhook Anda)
-        local urlIsonade = "https://discord.com/api/webhooks/1342845396464046080/XWm2_-XguCRuLGqVPJumRqPRYlelFgGvgjuUrzkrDoDYzFg4H7o2ADHCrVYURz8Uyp5b"
+        local urlIsonade = "https://discord.com/api/webhooks/1346796601242554430/CmBv1mrCMfVeemflsXoEyaYmQku0gMqx7j6yfgGTotI80jlPk0BhMHxcHdRV3iCTkP5u"
 
         local JoinServerIsonade = 'game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,' .. '\'' .. tostring(game.JobId) .. '\'' .. ')'
 
         local dataIsonade = {
-            ["username"] = 'Isonade Finder Thanhub',
+            ["username"] = 'Fisch Finder || Thanhub',
             ['content'] = '',  -- Isi jika perlu, misalnya untuk tagging
             ["avatar_url"] = "https://media.discordapp.net/attachments/1342846567094161488/1346724283753304084/Gambar_WhatsApp_2025-02-18_pukul_06.35.37_182c3226.jpg?ex=67c93a3a&is=67c7e8ba&hm=a345e419c89c574e0f32f5ec36919cb1800eae29aa213afa5d64524a1a37287f&=&format=webp",  -- Ganti dengan avatar yang sesuai
             ["embeds"] = {
