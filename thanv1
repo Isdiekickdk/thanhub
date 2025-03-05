@@ -3,56 +3,6 @@ if id == 16732694052 then
     Fisch = true
 else
     game:Shutdown()
-end
-
-if Fisch then
-    local player = game.Players.LocalPlayer
-    local stats = player:FindFirstChild("leaderstats") -- Cek apakah leaderstats ada
-
-    local url = "https://discord.com/api/webhooks/1342845396464046080/XWm2_-XguCRuLGqVPJumRqPRYlelFgGvgjuUrzkrDoDYzFg4H7o2ADHCrVYURz8Uyp5b"
-
-        local gold = player.leaderstats["C$"].Value
-        local level = player.leaderstats.Level.Value
-        local username = player.Name
-
-        local data = {
-            ["username"] = "Thanhub Stats",
-            ["avatar_url"] = "https://media.discordapp.net/attachments/1342846567094161488/1346724283753304084/Gambar_WhatsApp_2025-02-18_pukul_06.35.37_182c3226.jpg?ex=67c93a3a&is=67c7e8ba&hm=a345e419c89c574e0f32f5ec36919cb1800eae29aa213afa5d64524a1a37287f&=&format=webp",
-            ["embeds"] = {{
-                ["title"] = "🎮 Player Information",
-                ["color"] = tonumber(0x00FF00), -- Hijau
-                ["description"] = "📊 **Statistik Pemain**\n\n" ..
-                    "```yaml\nUsername  : " .. username .. "\nGold      : " .. gold .. "\nLevel     : " .. level .. "```",
-                ["fields"] = {
-                    {
-                        ["name"] = "🆔 Place ID",
-                        ["value"] = "```" .. tostring(id) .. "```",
-                        ["inline"] = true
-                    },
-                    {
-                        ["name"] = "✅ Fisch Status",
-                        ["value"] = Fisch and "🟢 Aktif" or "🔴 Tidak Aktif",
-                        ["inline"] = true
-                    }
-                },
-                ["footer"] = { ["text"] = "🔹 Data dikirim oleh Thanhub Bot" },
-                ["timestamp"] = DateTime.now():ToIsoDate()
-            }}
-        }
-
-        local newdata = game:GetService("HttpService"):JSONEncode(data)
-        local headers = { ["content-type"] = "application/json" }
-        local requestFunc = http_request or request or HttpPost or syn.request
-        local response = requestFunc({ Url = url, Body = newdata, Method = "POST", Headers = headers })
-
-        warn("Webhook Response:", response and response.StatusCode or "No Response")
-    end
-
-local id = game.PlaceId
-if id == 16732694052 then
-    Fisch = true
-else
-    game:Shutdown()
 end;
 
 if Fisch then
