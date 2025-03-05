@@ -98,8 +98,8 @@ if game.Workspace.zones.fishing:FindFirstChild("Isonade") then
                 ["type"] = "rich",
                 ["fields"] = {
                     {
-                        ["name"] = "[🦈] Megalodon Check",
-                        ["value"] = MegalodonMessage,
+                        ["name"] = "Strange Pool Check",
+                        ["value"] = IsonadeMessage,
                         ["inline"] = true
                     },
                     {
