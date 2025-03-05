@@ -47,7 +47,6 @@ if Fisch then
 
         warn("Webhook Response:", response and response.StatusCode or "No Response")
     end
-end
 
 local id = game.PlaceId
 if id == 16732694052 then
