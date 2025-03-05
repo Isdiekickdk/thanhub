@@ -12,7 +12,7 @@ if game.Workspace.zones.fishing:FindFirstChild("Megalodon Default") then
     end
  
     if game.Workspace.zones.fishing:FindFirstChild("Megalodon Default") then
-        MegalodonMessage = '```Megalodon is spawing : :green_circle:```'
+        MegalodonMessage = '```Megalodon is spawing : 🟢```'
     else
         MegalodonMessage = '```Megalodon isn\'t spawn : :x:```'
     end
@@ -78,7 +78,7 @@ if game.Workspace.zones.fishing:FindFirstChild("Isonade") then
     end
  
     if game.Workspace.zones.fishing:FindFirstChild("Isonade") then
-        IsonadeMessage = '```Strange Pool is spawing : :green_circle:```'
+        IsonadeMessage = '```Strange Pool is spawing : 🟢```'
     else
         IsonadeMessage = '```Strange Pool isn\'t spawn : :x:```'
     end
