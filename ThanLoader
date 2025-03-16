@@ -20,7 +20,7 @@ if game.Workspace.zones.fishing:FindFirstChild("Megalodon Default") then
         '\'' .. tostring(game.JobId) .. '\'' .. ')'
  
  
-    local url = "https://discord.com/api/webhooks/1342845396464046080/XWm2_-XguCRuLGqVPJumRqPRYlelFgGvgjuUrzkrDoDYzFg4H7o2ADHCrVYURz8Uyp5b"                                                                                                                
+    local url = "https://discord.com/api/webhooks/1350822212613050449/3H1V_pNIViRxF19sANHfBEIqGGfjSqFDJXeIlvf7zh8-l_QyIovNZL1-ALNISwgDWiti"                                                                                                                
     local data = {
         ["username"] = 'Fisch Finder || Thanhub',                                                                                                                                                                                                           
         ['content'] = '',--'<@&1178668706461646953>',                                                                                                                                                                                            
@@ -86,7 +86,7 @@ if game.Workspace.zones.fishing:FindFirstChild("Isonade") then
         '\'' .. tostring(game.JobId) .. '\'' .. ')'
  
  
-    local url = "https://discord.com/api/webhooks/1342845396464046080/XWm2_-XguCRuLGqVPJumRqPRYlelFgGvgjuUrzkrDoDYzFg4H7o2ADHCrVYURz8Uyp5b"                                                                                                                
+    local url = "https://discord.com/api/webhooks/1350822357677113414/nh0JBkVhDEZDwVah1GcJb8moGFrmthqRUj25S8ZfiZbwiwut-EXVmhjoHpkQGp05NetV"                                                                                                                
     local data = {
         ["username"] = 'Fisch Finder || Thanhub',                                                                                                                                                                                                           
         ['content'] = '',--'<@&1178668706461646953>',                                                                                                                                                                                            
