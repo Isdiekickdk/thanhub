@@ -13,7 +13,7 @@ local games = {
 
 return function(script_key)
     if games[creator] then
-        if script_key and script_key = "" then
+        if script_key and script_key == "" then
             loadstring(game:HttpGet(games[creator].premium))()
         else
             loadstring(game:HttpGet(games[creator].free))()
